@@ -4,4 +4,5 @@
                  [org.clojure/clojure-contrib "1.2.0"]
                  [org.jruby/jruby-complete "1.6.4"]
                  [ring/ring-jetty-adapter "0.3.9"]]
-  :dev-dependencies [[swank-clojure "1.3.3-SNAPSHOT"]])
+  :dev-dependencies [[swank-clojure "1.3.3-SNAPSHOT"]]
+  :main redbridge-demo.core)
