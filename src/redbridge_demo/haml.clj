@@ -17,4 +17,4 @@
 
    Usage: (render (haml->html \"%html\") ;=> \"<html></html>\n\""
   [haml-obj]
-  (rb/call-method haml-engine "render" haml-obj))
+  (rb/call-method haml-obj "render"))

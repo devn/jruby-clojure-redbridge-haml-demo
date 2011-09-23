@@ -1,5 +1,4 @@
 (ns redbridge-demo.ruby
-  (:require [clojure.contrib.io :as io])
   (:import [org.jruby CompatVersion]
            [org.jruby.embed ScriptingContainer LocalContextScope]))
 
@@ -40,10 +39,14 @@
   ([obj method]
      (. container callMethod obj method Object))
   ([obj method arg]
-     (. container callMethod obj method arg Object))
-  ([obj method arg return-type]
-     (. container callMethod obj method arg return-type)))
+     (. container callMethod obj method arg Object)))
 
 ;; (defn methods->kws [obj]
 ;;   (map #(keyword (call-method % "to_s"))
 ;;        (call-method obj "methods")))
+
+
+
+
+
+
