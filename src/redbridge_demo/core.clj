@@ -1,5 +1,6 @@
 (ns redbridge-demo.core
   (:require [ring.adapter.jetty :as jetty]
+            [clojure.string :as s :only [replace]]
             [redbridge-demo.haml :as haml]
             [redbridge-demo.ruby :as rb]))
 
